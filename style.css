@@ -1,0 +1,57 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-image: url(image/image-2.jpg);
+    background-size: cover;
+ }
+div{
+    text-align: center;
+    
+   position: relative;
+   
+ }
+
+.btn1 {
+    border-radius: 30px;
+    padding: auto;
+    
+    background-color: blue;
+   
+    height: 30px;
+    length: 500px
+}
+button {
+    border-radius: 30px;
+    padding: auto;
+    height: 30px;
+    length: 500px
+}
+nav li{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+nav ul{
+    float: right;
+}
+nav li a{
+    position: inherit;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* padding: 20pc; */
+    margin-bottom: 10px;
+    right: 90px;
+    word-spacing: 50px;
+    padding: 40px;
+
+}
+.logo{
+ float: left;
+}
+.text{
+    position: absolute;
+    bottom: 20%;
+    left: 25pc;
+    text-decoration: aliceblue;
+   color: black;
+}
